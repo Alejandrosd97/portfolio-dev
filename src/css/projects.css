@@ -1,0 +1,33 @@
+.main-container{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    position:relative;
+}
+
+.progressBar{
+    height: 10px;
+    width: 100%;
+    margin:auto;
+    background-color: rgb(var(--main-color));   
+    height: 5px;
+    border-radius: 5px;
+}
+
+.projects-title{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin:0;
+}
+
+.projects-main-description{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+}
+
+.projects-main-description p {
+    font-size: 22px;
+    color:grey;
+} 

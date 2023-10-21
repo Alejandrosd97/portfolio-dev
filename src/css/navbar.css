@@ -1,0 +1,201 @@
+.nav{
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* position:fixed; 
+    top:0px;
+    left:0px; */
+    width: 100%;
+    z-index:1000;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    height:100px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.hamburger{
+    background: url('../imgs/hamburguesa.png');
+    width: 30px;
+    height:30px;
+    background-size: cover;
+    display:block;
+}
+ 
+.cancelar {
+    background: url('../imgs/cancelar.svg');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: block;
+}
+
+.hamburger:hover, .cancelar:hover{
+    transform:none
+}
+
+
+.navbar-personal-info{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.navbar-personal-info span{
+    font-size: 1.4rem
+}
+
+.logo-principal{
+    width:60px;
+    border-radius: 50%;
+}
+
+#navbar-ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 100px;
+    left: -100%; 
+    margin-top: 0px;
+    transition: 2s;
+    z-index:20;
+    background-color: #9eb3c2;
+    color: #21295c;
+}
+
+.nav-blog{
+    align-self: center;
+    padding:32px 0px;
+    color:whitesmoke;
+}
+
+.active{
+    width: 100%;
+    left:0px !important;
+    transition: ease 1s !important;
+}
+
+
+.nav .active li a{
+    color: whitesmoke;
+}
+
+.nav li{
+    font-size:1.2rem;
+    text-align:center;
+    padding:0;
+}
+
+.nav li a{
+    color: #9eb3c2;
+    /* color: #00509d; */
+    letter-spacing: 3px;
+    width: 100%;
+    padding: 1em 0;
+    display: inline-block
+}
+
+.nav li a:hover {
+    color: #21295c;
+    transition: 0.3s
+}
+
+/* .nav li:active {
+    background-color: #9eb3c2;
+    color: #21295c;
+} */
+
+.bandera{
+    width: 25px;
+    height:18px;
+    border-radius: 2px;
+
+}
+
+button{
+    border: none;
+    cursor:pointer;
+    background-color: transparent;
+}
+
+.alemania{
+    background: url('../assets/imgs/bandera_alemania.jpg');
+    background-size: cover;
+    display: block;
+}
+
+.inglesa{
+    background: url('../assets/imgs/bandera_inglesa.png');
+    background-size: cover;
+    background-position-x:50%;
+    display: block;
+    
+}
+
+.espana{
+    background: url('../assets/imgs/bandera_espana.jpg');
+    background-size: cover;
+    display: block;
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5em;
+    
+}
+
+
+@media screen and (min-width:800px) and (max-width:979px){
+    .nav li{
+        font-size: 2em;
+    }
+}
+
+
+@media screen and (min-width:980px){
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        font-weight: 600;
+    
+    }
+
+    #navbar-ul {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction:row;
+        gap: 40px;
+        align-items: center;
+        position: relative;
+        top:auto;
+        left:auto;
+        transition:none;
+        margin-bottom: 0px;
+        background-color: transparent;
+    }
+
+    .nav-blog{
+        color: #00509d
+    }
+
+    .hamburger{
+        display:none;
+
+    }
+}
+
+
+
+

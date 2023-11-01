@@ -9,7 +9,7 @@ export default function About() {
         <div className='about-container'>
             <div className='about-main-description'>
                 <div className='main-about'>
-                    <h4 className='about-main-title'>ABOUT ME</h4>
+                    <h3 className='about-main-title'>ABOUT ME</h3>
                     <p className='description'>I'm a full-stack developer based out of Valencia, Spain. I love building apps that solve real-world problems,
                         and that are delightful to use.</p>
                 </div>
@@ -17,17 +17,15 @@ export default function About() {
 
             <div className='about-second-row'>
                 <div className='secondary-about'>
-                    <h4 className='about-main-title'>Get to know me</h4>
-                    <p className='description'>Until now I have worked as a physical therapist. 
-                        I have a bachelors degree in English from Kings College. When I'm not coding, 
-                        I take care of my five adorable cats.</p>
+                    <h4 className='about-title'>Get to know me</h4>
+                    <p className='description'>I am a passionate physiotherapist who ventured into the world of web development through self-guided learning. My journey into web development began as a curiosity, but what started as a hobby turned into a true passion.</p>
                     <a href={curriculum} download='Alejandro-Santamaria-Resume'>
-                        <button className='resume-button'>DOWNLOAD MY RESUME</button>
+                        <button className='button-blue'>DOWNLOAD MY RESUME</button>
                     </a>
                 </div>
 
                 <div className='secondary-about'>
-                    <h4 className='about-main-title'>My Skills</h4>
+                    <h4 className='about-title'>My Skills</h4>
                     <div className='skills'>
                         <div className='skill'>HTML</div>
                         <div className='skill'>JavaScript</div>

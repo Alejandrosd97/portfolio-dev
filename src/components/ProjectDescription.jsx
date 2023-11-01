@@ -1,20 +1,27 @@
 import React from 'react'
 import '../css/bigFoto.css'
 import '../css/about.css'
+import Slider from './Slider'
 
 export default function ProjectDescription(props) {
-  console.log(props.text)
+          console.log(props.text)
+
   return (
+
+      
     
         <div className='project-detail'>
-            <h1>{props.text.title}</h1>
-          <div className='project-detail-foto'>
+          <h1>{props.text.title}</h1>
+          <Slider text={props.text}/> 
+          {/* <div className='project-detail-foto'>
             <img src='https://picsum.photos/800/400' alt=""/>
-          </div>
+          </div> */}
             <div className='description-container'>
               <div className='project-description'>
                   <h4 className='detail-subtitle'>Project details</h4>
                   <p>{props.text.description}</p>
+                  <p>{props.text.explicacion}</p>
+
 
               </div>
               <div className='project-tools'>
@@ -24,7 +31,7 @@ export default function ProjectDescription(props) {
                 <div className='skills'>
                   {
                     props.text.stack.map((skill)=>{
-                      return <div className='skill'>{skill}</div>
+                      return <div key={skill} className='skill'>{skill}</div>
                     })
                   }
 

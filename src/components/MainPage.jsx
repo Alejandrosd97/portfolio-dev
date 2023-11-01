@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Hero from './Hero'
 import Otro from './Otro'
 import Projects from './Projects'
+import Footer from './Footer'
 import '../App.css'
 
 
@@ -14,6 +15,7 @@ export default function MainPage() {
       <Projects/>
       <About/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

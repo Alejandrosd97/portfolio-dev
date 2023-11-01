@@ -23,7 +23,7 @@ export default function Project(props) {
       </div>
       <motion.div className='text-container' style={{y}} >
         <h3 >{props.title}</h3>
-        <p>{props.description}</p>
+        <p>{props.short}</p>
           <Link to={`/project/${props.id}`}>
             <button className='button-blue'>LEARN MORE</button>
           </Link>

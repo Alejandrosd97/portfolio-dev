@@ -16,7 +16,7 @@ import {motion , useScroll, useSpring } from 'framer-motion'
     // })
     
     const proyectos = pro.map((p)=>{
-      return <Project title={p.title} key={p.id} description={p.description} id={p.id}/>
+      return <Project title={p.title} key={p.id} short={p.short} id={p.id}/>
     })
 
   return (

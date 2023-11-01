@@ -1,4 +1,42 @@
 #footer{
-    background-color: black;
-    height: 300px;
+    background-color: #CCDFF1;
+    margin-top: -40px;
+    height: auto;
+    padding:50px 0px 20px 0px;
+}
+
+.nombre{
+    color :White;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#footer ul{
+    display: flex;
+    padding: 0px;
+    gap:20px;
+    justify-content: center;
+    
+}
+
+#footer li a{
+    color: #21295c;
+    letter-spacing: 3px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.logos a img{
+    width: 30px;
+    transition: 0.5s;
+}
+
+.logos a img:hover{
+    transform :translateY(-5px);
+    transition: 0.5s;
 }

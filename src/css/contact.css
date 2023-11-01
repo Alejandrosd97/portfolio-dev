@@ -1,3 +1,7 @@
+#contact{
+    height: auto;
+}
+
 .contact{
     padding:70px 0;
     background-color: #CCDFF1;
@@ -12,7 +16,6 @@
     max-width:600px;
     border-radius: 8px;
     margin:auto;
-    background-color: #fff;
     padding: 20px;
 }
 
@@ -38,7 +41,9 @@ input, textarea{
     border:none;
     border-radius: 3px;
     padding:10px;
-    background-color: #eee;
+    background-color: transparent;
+    color:#21295c;
+    border: 3px solid #21295c;
 }
 
 label{
@@ -55,13 +60,19 @@ input, textarea{
     font-family: inherit;
 }
 
+.row label{
+    color: #2c0735;
+}
+
 textarea{
     height: 200px;
+    resize:none;
 }
 
 .contact-button{
     background-color: #fff;
     margin-top:30px;
+    color:#21295c;
     font-size: 18px;
 }
 .wave-container {
@@ -88,3 +99,7 @@ textarea{
         height: 65px
     }
 }
+
+
+/* nuevo */
+

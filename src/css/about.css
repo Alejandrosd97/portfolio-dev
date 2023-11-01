@@ -1,10 +1,11 @@
 #about{
-    height: 60vh;
+    display: flex
 }
 
 .about-container{
     width: 90%;
-    margin:auto
+    margin:auto;
+    
 }
 
 .main-about{
@@ -15,12 +16,22 @@
     margin-bottom: 70px;
 }
 
+.about-main-title{
+    font-size:40px
+}
+
+.about-title{
+    font-size: 28px;
+}
+
 .description{
-    font-size: 22px;
+    font-size: 20px;
     max-width: 700px;
     margin: auto;
     color: grey;
+    margin-bottom: 30px;
 }
+
 
 .about-second-row{
     display:flex;
@@ -36,18 +47,19 @@
     text-align: center;
 }
 
-.resume-button{
+/* .resume-button{
     background-color: rgba(var(--main-color));
     color:white;
     font-size: 18px;
     margin-top: 30px;
     padding: 0 20px;
-}
+} */
 
 .skills{
     display: flex;
     gap:20px;
     flex-wrap: wrap;
+    z-index: 1000;
 }
 
 .skill{
@@ -70,5 +82,9 @@
         width: 50%;
         flex-direction: column;
         text-align: left;
+    }
+
+    .skills{
+        justify-content: left;
     }
 }

@@ -29,6 +29,11 @@ export default function Contact() {
                 <button className='contact-button'>SEND MESSAGE</button>
 
             </form>
+
+
+
+
+
         </div>
     </section>
     </>

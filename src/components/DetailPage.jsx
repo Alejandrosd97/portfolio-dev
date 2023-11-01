@@ -2,6 +2,7 @@ import {React} from 'react'
 import { useParams, Link, useNavigate} from 'react-router-dom'
 
 import Hero from './Hero'
+import Footer from './Footer'
 import ProjectDescription from './ProjectDescription'
 import {pro} from '../assets/projects'
 
@@ -14,6 +15,7 @@ export default function DetailPage(props) {
   return (
     <div>
         <ProjectDescription text={text} id={postId}/>
+        <Footer/>
     </div>
   )
 }

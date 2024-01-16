@@ -1,6 +1,20 @@
 import React from 'react'
 import '../css/about.css'
 import curriculum from '../assets/curriculum.pdf'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import python from '../assets/python.png'
+import react from '../assets/react.png'
+import node from '../assets/node.png'
+import django from '../assets/django.png'
+import git from '../assets/git.png'
+import sql from '../assets/sql.png'
+import next from '../assets/next.png'
+import js from '../assets/js.png'
+import express from '../assets/express.png'
+import mongo from '../assets/mongo.png'
+
+
 
 
 export default function About() {
@@ -27,18 +41,63 @@ export default function About() {
                 <div className='secondary-about'>
                     <h4 className='about-title'>My Skills</h4>
                     <div className='skills'>
-                        <div className='skill'>HTML</div>
-                        <div className='skill'>JavaScript</div>
-                        <div className='skill'>CSS</div>
-                        <div className='skill'>NodeJs</div>
-                        <div className='skill'>Mongodb</div>
-                        <div className='skill'>Express</div>
-                        <div className='skill'>React</div>
-                        <div className='skill'>NextJs</div>
-                        <div className='skill'>Python</div>
-                        <div className='skill'>Git</div>
-                        <div className='skill'>Django</div>
-                        <div className='skill'>SQL</div>
+                        <div className='skill'>
+                            <img src ={html} />
+                            <span>HTML</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={js} />
+                            <span>JavaScript</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={css} />
+                            <span>CSS</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={node} />
+                            <span>NodeJS</span> 
+
+                        </div>
+                        <div className='skill'>
+                            <img src ={mongo} />
+                            <span>MongoDB</span> 
+
+                        </div>
+                        <div className='skill'>
+                            <img src ={express} />
+                            <span>Express</span> 
+
+                        </div>
+                        <div className='skill'>
+                            <img src ={react} />
+                            <span>React</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={next} />
+                            <span>NextJs</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={react} />
+                            <span>React Native</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={python} />
+                            <span>Python</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={git} />
+                            <span>Git</span> 
+                        </div>
+                        <div className='skill'>
+                            <img src ={django} />
+                            <span>Django</span> 
+
+                        </div>
+                        <div className='skill'>
+                            <img src ={sql} />
+                            <span>SQL</span> 
+
+                        </div>
                     </div>
                 </div>
             </div>

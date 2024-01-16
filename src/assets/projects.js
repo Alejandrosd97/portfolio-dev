@@ -29,11 +29,50 @@ export const pro = [
     },
     {
         id : 3,
-        title: 'House Selling Site',
+        title: 'OldSoulCars',
+        short : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other',
+        description : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other. It allows to search for properties in diferent cities, add them to favorites, and the option of receiving an email when a property you are interested in lowers its price. In addition, it is included a chat where owners and customers can exchange messages',
+        explicacion : 'The website is coded using Django and uses a Postgres database. It uses a geolocation API called Geoapify. It allows autocomplete for addresses when searching for cities, and storing the addres so the propertY addresses can be displayed on the map. The pictures of the properties are stored using Cloudinary, a cloud service for media storage',
+        stack : ['Angular', 'Vercel'],
+        fotos : [
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState2.PNG?updatedAt=1698608872954',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState3.PNG?updatedAt=1698608872652',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realstate1.PNG?updatedAt=1698608855777'
+]
+    },
+    {
+        id : 4,
+        title: 'Dream Dwellings',
         short : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other',
         description : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other. It allows to search for properties in diferent cities, add them to favorites, and the option of receiving an email when a property you are interested in lowers its price. In addition, it is included a chat where owners and customers can exchange messages',
         explicacion : 'The website is coded using Django and uses a Postgres database. It uses a geolocation API called Geoapify. It allows autocomplete for addresses when searching for cities, and storing the addres so the propertY addresses can be displayed on the map. The pictures of the properties are stored using Cloudinary, a cloud service for media storage',
         stack : ['Django', 'Postgres', 'Bootstrap', 'Cloudinary', 'Geoapify', 'Render'],
+        fotos : [
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState2.PNG?updatedAt=1698608872954',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState3.PNG?updatedAt=1698608872652',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realstate1.PNG?updatedAt=1698608855777'
+]
+    },
+    {
+        id : 5,
+        title: 'Travel App',
+        short : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other',
+        description : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other. It allows to search for properties in diferent cities, add them to favorites, and the option of receiving an email when a property you are interested in lowers its price. In addition, it is included a chat where owners and customers can exchange messages',
+        explicacion : 'The website is coded using Django and uses a Postgres database. It uses a geolocation API called Geoapify. It allows autocomplete for addresses when searching for cities, and storing the addres so the propertY addresses can be displayed on the map. The pictures of the properties are stored using Cloudinary, a cloud service for media storage',
+        stack : ['React Native', 'Expo'],
+        fotos : [
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState2.PNG?updatedAt=1698608872954',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realState3.PNG?updatedAt=1698608872652',
+            'https://ik.imagekit.io/tycsvln58/portfolio/realstate1.PNG?updatedAt=1698608855777'
+]
+    },
+    {
+        id : 6,
+        title: 'Travel App',
+        short : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other',
+        description : 'This project serves the purpose of putting owners and people who want to buy a house in contact with each other. It allows to search for properties in diferent cities, add them to favorites, and the option of receiving an email when a property you are interested in lowers its price. In addition, it is included a chat where owners and customers can exchange messages',
+        explicacion : 'The website is coded using Django and uses a Postgres database. It uses a geolocation API called Geoapify. It allows autocomplete for addresses when searching for cities, and storing the addres so the propertY addresses can be displayed on the map. The pictures of the properties are stored using Cloudinary, a cloud service for media storage',
+        stack : ['React Native', 'Expo'],
         fotos : [
             'https://ik.imagekit.io/tycsvln58/portfolio/realState2.PNG?updatedAt=1698608872954',
             'https://ik.imagekit.io/tycsvln58/portfolio/realState3.PNG?updatedAt=1698608872652',
